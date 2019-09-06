@@ -1,0 +1,536 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "password",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "seto",
+      "password": "password",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "username": "budi",
+      "password": "password",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "anton",
+      "password": "password",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "username": "admin",
+      "password": "password",
+      "role": "admin",
+      "id": 17
+    },
+    {
+      "username": "user2",
+      "password": "password",
+      "email": "mail@mail.com",
+      "role": "user",
+      "id": 18
+    },
+    {
+      "username": "user3",
+      "password": "password",
+      "email": "testing@mail.com",
+      "role": "user",
+      "id": 19
+    },
+    {
+      "username": "",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 20
+    },
+    {
+      "username": "user17",
+      "password": "password",
+      "email": "testing@hore.com",
+      "role": "user",
+      "id": 21
+    },
+    {
+      "username": "testing123",
+      "password": "123",
+      "email": "halo",
+      "role": "user",
+      "id": 22
+    },
+    {
+      "username": "halohalo",
+      "password": "password",
+      "email": "haloMail.com",
+      "role": "user",
+      "id": 23
+    },
+    {
+      "username": "t",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 24
+    },
+    {
+      "username": "tes",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 25
+    },
+    {
+      "username": "testing",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 26
+    },
+    {
+      "username": "1",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 27
+    },
+    {
+      "username": "testing1233",
+      "password": "123",
+      "email": "mail.com",
+      "role": "user",
+      "id": 28
+    },
+    {
+      "username": "harry",
+      "password": "12345",
+      "email": "rayjkt@gmail",
+      "role": "user",
+      "id": 29
+    },
+    {
+      "username": "abdul",
+      "password": "12345",
+      "email": "woi@dahbujug.com",
+      "role": "user",
+      "id": 30
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nama": "Kaos Polos Hitam",
+      "harga": "20000",
+      "category": "polos",
+      "discount": "15",
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "The Gelap Kesatria",
+      "harga": 40000,
+      "category": "sablon",
+      "discount": 0,
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg"
+    },
+    {
+      "nama": "Epic Comeback",
+      "harga": 30000,
+      "discount": 20,
+      "category": "sablon",
+      "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+      "deskripsi": "Kaos Terbaik",
+      "id": 3
+    },
+    {
+      "nama": "Something In Coffee",
+      "harga": "18000",
+      "category": "Kopi",
+      "discount": "0",
+      "deskripsi": "oke bro",
+      "img": "https://doktersehat.com/wp-content/uploads/2018/11/kopi-doktersehat.jpg",
+      "id": 4
+    },
+    {
+      "nama": "Gorengan",
+      "harga": "5000",
+      "category": "Makanan",
+      "discount": "5",
+      "deskripsi": "asoooy",
+      "img": "https://mmc.tirto.id/image/otf/500x0/2018/05/23/ilustrasi-gorengan-2--istockphoto_ratio-16x9.jpg",
+      "id": 5
+    }
+  ],
+  "cart": [],
+  "history": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 1,
+          "quantity": 5,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 6
+        },
+        {
+          "productId": 1,
+          "userId": 1,
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 7
+        }
+      ],
+      "time": "2019-9-3",
+      "totalPrice": 217000,
+      "recipient": "Andre",
+      "postalCode": "15000",
+      "address": "Icon kosan oke mantap santuy living",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 1,
+          "quantity": 5,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 6
+        },
+        {
+          "productId": 1,
+          "userId": 1,
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 7
+        }
+      ],
+      "time": "2019-9-3",
+      "totalPrice": 217000,
+      "recipient": "Anton",
+      "postalCode": "17000",
+      "address": "Purwadhika Startup Skuy",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 2,
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": 2,
+          "quantity": "1",
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        },
+        {
+          "productId": 1,
+          "userId": 2,
+          "quantity": 2,
+          "price": 20000,
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": 10,
+          "productName": "Kaos Polos Hitam",
+          "id": 4
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 100000,
+      "recipient": "fdfdsf",
+      "postalCode": "fgs",
+      "address": "SDSGF",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 2,
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": 2,
+          "quantity": "1",
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 64000,
+      "recipient": "gfhgj",
+      "postalCode": "e5e55e5",
+      "address": "sadf",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 2,
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": 2,
+          "quantity": "1",
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 64000,
+      "recipient": "safdsdsf",
+      "postalCode": "134435",
+      "address": "cgfdbd",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 2,
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 2
+        },
+        {
+          "productId": 3,
+          "userId": 2,
+          "quantity": "1",
+          "price": 30000,
+          "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+          "discount": 20,
+          "productName": "Epic Comeback",
+          "id": 3
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 64000,
+      "recipient": "sgsdgad",
+      "postalCode": "1q3414",
+      "address": "asfa",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "items": [
+        {
+          "productId": 1,
+          "userId": 2,
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 8
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 17000,
+      "recipient": "fdsaf",
+      "postalCode": "4144",
+      "address": "DSG",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "userId": 1,
+          "quantity": 2,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 5
+        },
+        {
+          "productId": 2,
+          "userId": 1,
+          "quantity": 2,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Gelap Kesatria",
+          "id": 6
+        },
+        {
+          "productId": 4,
+          "userId": 1,
+          "quantity": 1,
+          "price": "18000",
+          "img": "https://doktersehat.com/wp-content/uploads/2018/11/kopi-doktersehat.jpg",
+          "discount": "0",
+          "productName": "Something In Coffee",
+          "id": 7
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 132000,
+      "recipient": "jenggo",
+      "postalCode": "154376",
+      "address": "jonggol",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "userId": 1,
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 1
+        },
+        {
+          "productId": 2,
+          "userId": 1,
+          "quantity": 2,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Gelap Kesatria",
+          "id": 2
+        }
+      ],
+      "time": "2019-9-4",
+      "totalPrice": 97000,
+      "recipient": "tes",
+      "postalCode": "12345",
+      "address": "tes",
+      "id": 13
+    },
+    {
+      "userId": 30,
+      "items": [
+        {
+          "productId": 1,
+          "userId": 30,
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 1
+        },
+        {
+          "productId": 2,
+          "quantity": 3,
+          "userId": 30,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Gelap Kesatria",
+          "id": 2
+        }
+      ],
+      "time": "2019-9-6",
+      "totalPrice": 137000,
+      "recipient": "Toing",
+      "postalCode": "12345",
+      "address": "Palsu",
+      "id": 14
+    },
+    {
+      "userId": 30,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 30,
+          "quantity": 1,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Gelap Kesatria",
+          "id": 1
+        },
+        {
+          "productId": 4,
+          "userId": 30,
+          "quantity": 1,
+          "price": "18000",
+          "img": "https://doktersehat.com/wp-content/uploads/2018/11/kopi-doktersehat.jpg",
+          "discount": "0",
+          "productName": "Something In Coffee",
+          "id": 2
+        },
+        {
+          "productId": 5,
+          "userId": 30,
+          "quantity": 1,
+          "price": "5000",
+          "img": "https://mmc.tirto.id/image/otf/500x0/2018/05/23/ilustrasi-gorengan-2--istockphoto_ratio-16x9.jpg",
+          "discount": "5",
+          "productName": "Gorengan",
+          "id": 3
+        }
+      ],
+      "time": "2019-9-6",
+      "totalPrice": 62750,
+      "recipient": "Otong",
+      "postalCode": "14323",
+      "address": "Alamat Palsu",
+      "id": 15
+    }
+  ]
+}
